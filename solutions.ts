@@ -6,9 +6,9 @@ const multiplyValue = (value: number, multiplier?: number): number => {
   }
 };
 
-const processInput = (value: string | number | boolean) => {
+const processInput = (value: string | number | boolean): string | number => {
   if (typeof value === "string") {
-    return value.trim();
+    return value.trim().toLowerCase();
   } else if (typeof value === "number") {
     return value * 10;
   } else {
@@ -20,7 +20,7 @@ const formatCoordinate = ([latitude, longitude, locationName]: readonly [
   number,
   number,
   string,
-]) => {
+]): string => {
   return `Location: ${locationName} (${latitude}, ${longitude})`;
 };
 

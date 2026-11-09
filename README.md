@@ -1,21 +1,32 @@
-# TypeScript Practice
+# TypeScript Concepts in Practice
 
-This is a collection of TypeScript practice work focused on writing safer
-and more reusable code. It includes examples of working with different
-types, generic functions, classes, inheritance, and asynchronous validation.
-The notes explain the main ideas behind the examples in a simple way, while
-the TypeScript files show how they work in code.
+This assignment brings together a few practical TypeScript examples and
+short written explanations. The examples focus on using types to make code
+more predictable, reusable, and easier to maintain.
 
-## Included topics
+## What is covered
 
-- `solutions.ts` : practice functions for handling different input types,
-  combining arrays, selecting object properties, and filtering courses. It
-  also includes examples of classes, inheritance, access modifiers, and
-  asynchronous age validation.
-- `generics-promise.md` : an explanation of how generics make functions and
-  interfaces reusable. It also covers type inference and using generics to
-  describe different API responses returned through promises.
-- `union-and-intersection.md` : a guide to union types for allowing a value
-  from a fixed set of types, and intersection types for combining multiple
-  object shapes. The examples use simple animal and food types to show how
-  both operators work together.
+- Different ways to work with union and intersection types
+- Generic functions and interfaces
+- Type inference and typed API responses
+- Reusable functions for arrays and object properties
+- Classes, inheritance, and access modifiers
+- Promise-based asynchronous validation
+
+## Files
+
+- [`solutions.ts`](./solutions.ts) : includes practical functions for
+  processing input, combining arrays, selecting object properties, and
+  filtering courses. It also demonstrates classes, inheritance, access
+  modifiers, and asynchronous age validation.
+- [`generics-promise.md`](./generics-promise.md) : explains how generics can
+  be used with functions, interfaces, and promises to handle different data
+  types safely.
+- [`union-and-intersection.md`](./union-and-intersection.md) : explains the
+  difference between union and intersection types with examples using
+  animals, properties, and food choices.
+
+## Blog posts
+
+- [TypeScript Generics and Promises](./generics-promise.md)
+- [Union and Intersection Types](./union-and-intersection.md)
